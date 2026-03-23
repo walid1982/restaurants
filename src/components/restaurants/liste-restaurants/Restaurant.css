@@ -1,0 +1,89 @@
+/* Bloc titre/sous-titre des restaurants */
+/* Bloc titre/sous-titre des restaurants amélioré */
+
+
+/* Bloc titre/sous-titre des restaurants amélioré */
+.restaurants-header {
+    text-align: center;
+    margin: 0 0 2rem 0;
+    padding: 2rem 1rem 1.5rem 1rem;
+    background: linear-gradient(90deg, #4fd1c5 0%, #2d3748 100%);
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(44, 62, 80, 0.10);
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+.restaurants-header h1 {
+    font-size: 2.4rem;
+    color: #fff;
+    margin-bottom: 0.5rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-shadow: 0 2px 8px rgba(44, 62, 80, 0.10);
+}
+
+.restaurants-header p {
+    color: #e2e8f0;
+    font-size: 1.15rem;
+    margin: 0;
+    font-weight: 400;
+}
+
+
+.speciality {
+    background: #e2e8f0;
+    color: #2b6cb0;
+    padding: 0.3rem 0.7rem;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    display: inline-block;
+    margin-top: 0.5rem;
+}
+
+
+.restaurant-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.restaurant-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+    padding: 1.5rem;
+    transition: transform 0.2s;
+}
+
+.restaurant-card:hover {
+    transform: translateY(-5px) scale(1.02);
+}
+
+.restaurant-name {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #2d3748;
+    margin-bottom: 0.5rem;
+}
+
+.restaurant-info {
+    margin-bottom: 0.5rem;
+    color: #4a5568;
+}
+
+.stars {
+    color: #f6ad55;
+    font-size: 1.1rem;
+}
+
+.speciality {
+    background: #e2e8f0;
+    color: #2b6cb0;
+    padding: 0.3rem 0.7rem;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    display: inline-block;
+    margin-top: 0.5rem;
+}

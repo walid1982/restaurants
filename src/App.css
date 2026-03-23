@@ -1,0 +1,115 @@
+
+/* Footer principal */
+.main-footer {
+  background: #2d3748;
+  color: #fff;
+  padding: 1.2rem 0;
+  text-align: center;
+  margin-top: 3rem;
+  box-shadow: 0 -2px 8px rgba(0,0,0,0.07);
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+}
+
+.footer-link {
+  color: #4fd1c5;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  transition: color 0.2s;
+}
+.footer-link:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+/* Menu de navigation principal */
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #2d3748;
+  color: #fff;
+  padding: 0.7rem 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline-block;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 0.3rem 0.7rem;
+  border-radius: 6px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.nav-links a:hover {
+  background: #4fd1c5;
+  color: #2d3748;
+}
+
+@media (max-width: 700px) {
+  .main-nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    margin-top: 0.7rem;
+  }
+  .nav-logo {
+    margin-bottom: 0.5rem;
+  }
+}
+
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f6f8fa;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #2d3748;
+      color: #fff;
+      padding: 2rem 0;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    /* .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    } */
+   
+  

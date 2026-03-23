@@ -1,0 +1,424 @@
+{
+  "restaurants": [
+    {
+      "id": "1",
+      "image": "https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?auto=compress&w=600",
+      "restaurantName": "Le Gourmet Parisien",
+      "restaurantInfo": "12 rue de Rivoli, 75001 Paris",
+      "stars": 5,
+      "speciality": "Cuisine Française",
+      "opening": "12:00",
+      "closing": "23:00",
+      "priceFrom": 25,
+      "plats": [
+        {
+          "nom": "Magret de canard",
+          "image": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&w=600"
+        },
+        {
+          "nom": "Crème brûlée",
+          "image": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&w=600"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "image": "https://images.pexels.com/photos/6267/menu-restaurant-vintage-table.jpg?auto=compress&w=600",
+      "restaurantName": "Sushi Zen",
+      "restaurantInfo": "45 avenue des Champs, 75008 Paris",
+      "stars": 4,
+      "speciality": "Sushi & Japonais",
+      "opening": "11:30",
+      "closing": "22:30",
+      "priceFrom": 18,
+      "plats": [
+        {
+          "nom": "Sushi saumon",
+          "image": "https://images.pexels.com/photos/357756/pexels-photo-357756.jpeg?auto=compress&w=600"
+        },
+        {
+          "nom": "Ramen",
+          "image": "https://images.pexels.com/photos/357756/pexels-photo-357756.jpeg?auto=compress&w=600"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "image": "https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?auto=compress&w=600",
+      "restaurantName": "Bella Italia",
+      "restaurantInfo": "8 rue du Marché, 69001 Lyon",
+      "stars": 3,
+      "speciality": "Italien & Pizza",
+      "opening": "12:00",
+      "closing": "23:00",
+      "priceFrom": 15,
+      "plats": [
+        {
+          "nom": "Pizza Margherita",
+          "image": "https://images.pexels.com/photos/724216/pexels-photo-724216.jpeg?auto=compress&w=600"
+        },
+        {
+          "nom": "Tiramisu",
+          "image": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&w=600"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "image": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&w=600",
+      "restaurantName": "Le Bistrot du Sud",
+      "restaurantInfo": "22 rue du Soleil, 34000 Montpellier",
+      "stars": 4,
+      "speciality": "Cuisine Méditerranéenne",
+      "opening": "12:00",
+      "closing": "22:00",
+      "priceFrom": 20,
+      "plats": [
+        {
+          "nom": "Paëlla",
+          "image": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&w=600"
+        },
+        {
+          "nom": "Tapas variés",
+          "image": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&w=600"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&w=600",
+      "restaurantName": "Le Taj Mahal",
+      "restaurantInfo": "5 avenue de l'Inde, 75013 Paris",
+      "stars": 5,
+      "speciality": "Indien",
+      "opening": "11:00",
+      "closing": "23:00",
+      "priceFrom": 17,
+      "plats": [
+        {
+          "nom": "Poulet Tikka Masala",
+          "image": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&w=600"
+        },
+        {
+          "nom": "Naan fromage",
+          "image": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&w=600"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "image": "https://images.pexels.com/photos/262047/pexels-photo-262047.jpeg?auto=compress&w=600",
+      "restaurantName": "Le Dragon d'Or",
+      "restaurantInfo": "18 rue de la Chine, 69003 Lyon",
+      "stars": 4,
+      "speciality": "Chinois",
+      "opening": "12:00",
+      "closing": "22:30",
+      "priceFrom": 14,
+      "plats": [
+        {
+          "nom": "Canard laqué",
+          "image": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&w=600"
+        },
+        {
+          "nom": "Riz cantonais",
+          "image": "https://images.pexels.com/photos/357756/pexels-photo-357756.jpeg?auto=compress&w=600"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "image": "https://images.pexels.com/photos/3026808/pexels-photo-3026808.jpeg?auto=compress&w=600",
+      "restaurantName": "El Toro Loco",
+      "restaurantInfo": "33 rue de Madrid, 31000 Toulouse",
+      "stars": 3,
+      "speciality": "Espagnol",
+      "opening": "12:00",
+      "closing": "23:00",
+      "priceFrom": 19,
+      "plats": [
+        {
+          "nom": "Gazpacho",
+          "image": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&w=600"
+        },
+        {
+          "nom": "Churros",
+          "image": "https://images.pexels.com/photos/724216/pexels-photo-724216.jpeg?auto=compress&w=600"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "image": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&w=600",
+      "restaurantName": "Le Marrakech",
+      "restaurantInfo": "7 rue du Maroc, 13000 Marseille",
+      "stars": 4,
+      "speciality": "Marocain",
+      "opening": "12:00",
+      "closing": "22:30",
+      "priceFrom": 16,
+      "plats": [
+        {
+          "nom": "Couscous royal",
+          "image": "https://images.pexels.com/photos/262047/pexels-photo-262047.jpeg?auto=compress&w=600"
+        },
+        {
+          "nom": "Pastilla",
+          "image": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&w=600"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "image": "https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&w=600",
+      "restaurantName": "Burger House",
+      "restaurantInfo": "99 avenue du Fast Food, 75015 Paris",
+      "stars": 3,
+      "speciality": "Burgers",
+      "opening": "11:30",
+      "closing": "23:30",
+      "priceFrom": 12,
+      "plats": [
+        {
+          "nom": "Cheeseburger",
+          "image": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&w=600"
+        },
+        {
+          "nom": "Frites maison",
+          "image": "https://images.pexels.com/photos/262047/pexels-photo-262047.jpeg?auto=compress&w=600"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&w=600",
+      "restaurantName": "Le Vegan Spot",
+      "restaurantInfo": "15 rue Verte, 75011 Paris",
+      "stars": 4,
+      "speciality": "Vegan",
+      "opening": "12:00",
+      "closing": "22:00",
+      "priceFrom": 13,
+      "plats": [
+        {
+          "nom": "Bowl quinoa",
+          "image": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&w=600"
+        },
+        {
+          "nom": "Burger végétal",
+          "image": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&w=600"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "image": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&w=600",
+      "restaurantName": "Le Brunch Café",
+      "restaurantInfo": "21 rue du Matin, 75010 Paris",
+      "stars": 4,
+      "speciality": "Brunch & Café",
+      "opening": "09:00",
+      "closing": "16:00",
+      "priceFrom": 10,
+      "plats": [
+        {
+          "nom": "Avocado toast",
+          "image": "https://images.pexels.com/photos/262047/pexels-photo-262047.jpeg?auto=compress&w=600"
+        },
+        {
+          "nom": "Pancakes",
+          "image": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&w=600"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "image": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&w=600",
+      "restaurantName": "Le Grill Master",
+      "restaurantInfo": "44 rue du Barbecue, 69002 Lyon",
+      "stars": 5,
+      "speciality": "Grillades",
+      "opening": "12:00",
+      "closing": "23:00",
+      "priceFrom": 22,
+      "plats": [
+        {
+          "nom": "Côte de boeuf",
+          "image": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&w=600"
+        },
+        {
+          "nom": "Brochettes mixtes",
+          "image": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&w=600"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "image": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&w=600",
+      "restaurantName": "Le Pho Saigon",
+      "restaurantInfo": "3 rue du Vietnam, 75020 Paris",
+      "stars": 4,
+      "speciality": "Vietnamien",
+      "opening": "12:00",
+      "closing": "22:00",
+      "priceFrom": 15,
+      "plats": [
+        {
+          "nom": "Pho bo",
+          "image": "https://images.pexels.com/photos/262047/pexels-photo-262047.jpeg?auto=compress&w=600"
+        },
+        {
+          "nom": "Banh mi",
+          "image": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&w=600"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&w=600",
+      "restaurantName": "Le Bistro Breton",
+      "restaurantInfo": "17 rue de la Mer, 35000 Rennes",
+      "stars": 3,
+      "speciality": "Crêperie & Fruits de mer",
+      "opening": "12:00",
+      "closing": "22:00",
+      "priceFrom": 14,
+      "plats": [
+        {
+          "nom": "Galette complète",
+          "image": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&w=600"
+        },
+        {
+          "nom": "Moules marinières",
+          "image": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&w=600"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "image": "https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&w=600",
+      "restaurantName": "Le Tex Mex",
+      "restaurantInfo": "27 rue du Texas, 33000 Bordeaux",
+      "stars": 4,
+      "speciality": "Tex-Mex",
+      "opening": "12:00",
+      "closing": "23:00",
+      "priceFrom": 16,
+      "plats": [
+        {
+          "nom": "Fajitas poulet",
+          "image": "https://images.pexels.com/photos/262047/pexels-photo-262047.jpeg?auto=compress&w=600"
+        },
+        {
+          "nom": "Nachos",
+          "image": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&w=600"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "image": "https://images.pexels.com/photos/357756/pexels-photo-357756.jpeg?auto=compress&w=600",
+      "restaurantName": "Le Sushi Bar",
+      "restaurantInfo": "2 rue du Japon, 06000 Nice",
+      "stars": 5,
+      "speciality": "Sushi & Japonais",
+      "opening": "11:30",
+      "closing": "22:30",
+      "priceFrom": 20,
+      "plats": [
+        {
+          "nom": "Sashimi thon",
+          "image": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&w=600"
+        },
+        {
+          "nom": "Maki avocat",
+          "image": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&w=600"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&w=600",
+      "restaurantName": "Le Pita Express",
+      "restaurantInfo": "19 rue du Liban, 75005 Paris",
+      "stars": 3,
+      "speciality": "Libanais",
+      "opening": "12:00",
+      "closing": "22:00",
+      "priceFrom": 13,
+      "plats": [
+        {
+          "nom": "Falafel pita",
+          "image": "https://images.pexels.com/photos/262047/pexels-photo-262047.jpeg?auto=compress&w=600"
+        },
+        {
+          "nom": "Houmous",
+          "image": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&w=600"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "image": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&w=600",
+      "restaurantName": "Le Wok Fusion",
+      "restaurantInfo": "6 rue du Dragon, 69007 Lyon",
+      "stars": 4,
+      "speciality": "Fusion Asiatique",
+      "opening": "12:00",
+      "closing": "22:30",
+      "priceFrom": 17,
+      "plats": [
+        {
+          "nom": "Wok crevettes",
+          "image": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&w=600"
+        },
+        {
+          "nom": "Nouilles sautées",
+          "image": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&w=600"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "image": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&w=600",
+      "restaurantName": "Le Chalet Savoyard",
+      "restaurantInfo": "12 rue des Alpes, 74000 Annecy",
+      "stars": 5,
+      "speciality": "Savoyard",
+      "opening": "12:00",
+      "closing": "22:00",
+      "priceFrom": 21,
+      "plats": [
+        {
+          "nom": "Fondue savoyarde",
+          "image": "https://images.pexels.com/photos/262047/pexels-photo-262047.jpeg?auto=compress&w=600"
+        },
+        {
+          "nom": "Tartiflette",
+          "image": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&w=600"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "image": "https://images.pexels.com/photos/262047/pexels-photo-262047.jpeg?auto=compress&w=600",
+      "restaurantName": "Le Bistro Parisien",
+      "restaurantInfo": "1 place de la Concorde, 75008 Paris",
+      "stars": 4,
+      "speciality": "Bistrot",
+      "opening": "12:00",
+      "closing": "23:00",
+      "priceFrom": 19,
+      "plats": [
+        {
+          "nom": "Steak frites",
+          "image": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&w=600"
+        },
+        {
+          "nom": "Crème caramel",
+          "image": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&w=600"
+        }
+      ]
+    }
+  ]
+}

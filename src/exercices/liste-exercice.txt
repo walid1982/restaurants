@@ -1,0 +1,148 @@
+Débutant
+
+
+Compteur basique (useState)
+Objectif : créer un bouton qui incrémente un compteur.
+Contraintes : état initial 0, bouton +1, affichage du nombre.
+
+
+Compteur avec reset et decrement (useState)
+Objectif : ajouter -1 et Reset.
+Contraintes : empêcher le passage sous 0 (optionnel).
+
+
+Champ de saisie contrôlé (props + useState)
+Objectif : un <Input> enfant reçoit value et onChange en props.
+Contraintes : lever un événement au parent pour mettre à jour l’état.
+
+
+Affichage conditionnel via props
+Objectif : un composant Badge affiche “Actif” ou “Inactif” selon une prop booléenne.
+Contraintes : style différent selon l’état.
+
+
+Liste statique + rendu d’items (props)
+Objectif : List reçoit un tableau d’objets en props et rend ListItem.
+Contraintes : clés uniques (key), message “Aucun élément” si vide.
+
+
+Timer (useEffect)
+Objectif : afficher l’heure qui se met à jour chaque seconde.
+Contraintes : cleanup du setInterval dans useEffect.
+
+
+
+🟡 Intermédiaire
+
+
+Fetch d’une API (useEffect + useState)
+Objectif : récupérer des données (ex. posts) et les afficher.
+Contraintes : état loading, error, effet avec dépendances correctement définies.
+
+
+Recherche client‐side (useState + props)
+Objectif : un champ de recherche filtre une liste reçue en props.
+Contraintes : filtrage insensible à la casse, affichage du nombre de résultats.
+
+
+Formulaire multi‐champs contrôlé (useState)
+Objectif : prénom/nom/email avec validation de base.
+Contraintes : désactiver le bouton Submit tant que invalid, affichage des erreurs.
+
+
+Toggle thème (useState + props drilling)
+Objectif : App gère theme (light/dark) et le passe à des composants profonds via props.
+Contraintes : styles conditionnels, bouton pour basculer le thème.
+
+
+Pagination simple (useEffect + useState)
+Objectif : paginer une liste (10 items/page), changement de page.
+Contraintes : recalcul des items visibles, désactiver prev/next en borne.
+
+
+Debounce sur saisie (useEffect)
+Objectif : n’exécuter un “recherche()” qu’après 300ms sans frappe.
+Contraintes : cleanup du timer dans useEffect.
+
+
+
+🔵 Avancé
+
+
+Synchronisation avec localStorage (useEffect + useState)
+Objectif : sauvegarder le thème ou le panier dans localStorage.
+Contraintes : initialiser l’état depuis localStorage, écrire à chaque changement d’état, gérer JSON parse/stringify.
+
+
+Parent ↔ Enfant : remontée d’événements (props)
+Objectif : TodoList passe à TodoItem des handlers en props (onToggle, onDelete).
+Contraintes : immutabilité du tableau (map, filter), mise à jour performante.
+
+
+Effet dépendant d’une prop (useEffect)
+Objectif : un composant UserProfile refetch quand userId (prop) change.
+Contraintes : annuler les fetchs en cours (signal AbortController ou flag), état loading/error.
+
+
+Polling contrôlé (useEffect)
+Objectif : rafraîchir des données toutes les X secondes avec possibilité d’arrêter.
+Contraintes : bouton Start/Stop, cleanup de l’intervalle, éviter la dérive de timers.
+
+
+Préchargement conditionnel (useEffect + props)
+Objectif : si shouldPrefetch (prop) est vraie, précharger une ressource (ex. image).
+Contraintes : gestion de succès/erreur, ne pas reprovoquer l’effet inutilement.
+
+
+Composant contrôlé vs non contrôlé (useState + props)
+Objectif : créer Rating qui peut être contrôlé (value + onChange) ou auto‐géré.
+Contraintes : prioriser le mode contrôlé si value est fourni, documentation des props.
+
+
+Wizard multi‐étapes (useState + props)
+Objectif : 3 étapes avec état global (ex. infos perso → adresse → confirmation).
+Contraintes : validation à chaque étape, passer les données aux pages via props, récap final.
+
+
+Gestion d’abonnements (useEffect)
+Objectif : simuler un abonnement (ex. window.addEventListener, WebSocket mock).
+Contraintes : cleanup en return de useEffect pour retirer l’abonnement.
+
+
+
+🧪 Bonus “Best Practices”
+
+
+Memoisation ciblée (useEffect + useState + props)
+Objectif : mesurer des re‐renders et réduire avec React.memo / useMemo / useCallback.
+Contraintes : montrer avant/après, expliquer les dépendances correctes.
+
+
+PropTypes / TypeScript types pour props
+Objectif : typer les props pour éviter les erreurs.
+Contraintes : prop-types ou interfaces TS, valeurs par défaut (defaultProps ou = default en TS).
+
+_________________________________________________________________________________________
+
+_________________________________________________________________________________________
+
+Bien sûr ! Voici les cas principaux où on utilise les props en React :
+
+Transmettre des données du parent à l’enfant
+
+Exemple : une liste, un texte, un nombre, un objet, etc.
+Transmettre des fonctions pour gérer des actions
+
+Exemple : un bouton enfant qui déclenche une fonction du parent (onClick, onChange, etc.).
+Personnaliser l’affichage d’un composant
+
+Exemple : changer le style, le titre, le contenu selon les props.
+Rendre des composants réutilisables
+
+Exemple : un composant Card qui affiche différents contenus selon les props.
+Gérer l’état partagé
+
+Exemple : plusieurs enfants modifient ou affichent le même état du parent.
+Afficher des éléments conditionnels
+
+Exemple : afficher ou masquer un composant selon une prop booléenne.
